@@ -12,7 +12,7 @@ module.exports = {
 	},
 
 	rules: {
-
+		'indent': [ERROR, 'tab'],
 	},
 
 };
