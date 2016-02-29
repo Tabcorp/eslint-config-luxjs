@@ -23,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/luxbet/eslint-config-luxjs/issues"
   },
-  "homepage": "https://github.com/luxbet/eslint-config-luxjs"
+  "homepage": "https://github.com/luxbet/eslint-config-luxjs",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.2.0",
+    "eslint-plugin-babel": "^3.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=2"
+  }
 }

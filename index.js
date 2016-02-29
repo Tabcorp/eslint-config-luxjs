@@ -7,6 +7,15 @@ const ERROR = 2;
 
 module.exports = {
 
+	plugins: ['babel'],
+
+	parser: 'babel-eslint',
+
+	parserOptions: {
+		ecmaVersion: 6,
+		sourceType: 'module',
+	},
+
 	env: {
 		'es6': true,
 	},
