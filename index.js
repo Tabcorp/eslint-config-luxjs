@@ -1,0 +1,11 @@
+module.exports = {
+
+	globals: {
+
+	},
+
+	rules: {
+
+	},
+
+};
