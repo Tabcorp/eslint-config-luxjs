@@ -7,6 +7,10 @@ const ERROR = 2;
 
 module.exports = {
 
+	env: {
+		'es6': true,
+	},
+
 	globals: {
 
 	},
