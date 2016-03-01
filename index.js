@@ -35,6 +35,7 @@ module.exports = {
 			'after': true,
 		}],
 		'comma-style': [ERROR, 'last'],
+		'computed-property-spacing': [ERROR, 'never'],
 		'indent': [ERROR, 'tab', {
 			'SwitchCase': 1,
 		}],
