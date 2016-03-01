@@ -30,6 +30,10 @@ module.exports = {
 		'camelcase': [ERROR, {
 			'properties': 'never',
 		}],
+		'comma-spacing': [ERROR, {
+			'before': false,
+			'after': true,
+		}],
 		'indent': [ERROR, 'tab', {
 			'SwitchCase': 1,
 		}],
