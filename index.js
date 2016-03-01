@@ -38,6 +38,7 @@ module.exports = {
 		'computed-property-spacing': [ERROR, 'never'],
 		'consistent-this': [WARN, 'self'],
 		'eol-last': [WARN],
+		'func-names': [OFF],
 		'indent': [ERROR, 'tab', {
 			'SwitchCase': 1,
 		}],
