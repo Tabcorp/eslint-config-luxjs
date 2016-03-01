@@ -24,6 +24,9 @@ module.exports = {
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
+		'brace-style': [ERROR, '1tbs', {
+			'allowSingleLine': false,
+		}],
 		'indent': [ERROR, 'tab', {
 			'SwitchCase': 1,
 		}],
