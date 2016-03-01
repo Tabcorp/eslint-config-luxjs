@@ -21,7 +21,10 @@ module.exports = {
 	},
 
 	rules: {
-		'indent': [ERROR, 'tab'],
+		// Stylistic Issues
+		'indent': [ERROR, 'tab', {
+			'SwitchCase': 1,
+		}],
 	},
 
 };
