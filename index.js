@@ -27,6 +27,9 @@ module.exports = {
 		'brace-style': [ERROR, '1tbs', {
 			'allowSingleLine': false,
 		}],
+		'camelcase': [ERROR, {
+			'properties': 'never',
+		}],
 		'indent': [ERROR, 'tab', {
 			'SwitchCase': 1,
 		}],
