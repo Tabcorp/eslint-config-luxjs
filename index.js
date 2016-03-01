@@ -43,6 +43,10 @@ module.exports = {
 		'indent': [ERROR, 'tab', {
 			'SwitchCase': 1,
 		}],
+		'key-spacing': [ERROR, {
+			'beforeColon': false,
+			'afterColon': true,
+		}],
 	},
 
 };
