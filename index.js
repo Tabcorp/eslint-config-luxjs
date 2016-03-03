@@ -22,7 +22,7 @@ module.exports = {
 
 	rules: {
 		// Stylistic Issues
-		'array-bracket-spacing': [WARN, 'never'],
+		'array-bracket-spacing': [ERROR, 'never'],
 		'indent': [ERROR, 'tab', {
 			'SwitchCase': 1,
 		}],
