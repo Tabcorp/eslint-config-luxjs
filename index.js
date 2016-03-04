@@ -21,6 +21,8 @@ module.exports = {
 	},
 
 	rules: {
+		// Possible Errors
+		'no-console': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
