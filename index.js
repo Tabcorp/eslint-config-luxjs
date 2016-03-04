@@ -39,6 +39,7 @@ module.exports = {
 		'no-eval': [ERROR],
 		'no-implicit-coercion': [ERROR],
 		'no-redeclare': [ERROR],
+		'no-throw-literal': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
