@@ -44,8 +44,16 @@ module.exports = {
 			'SwitchCase': 1,
 		}],
 		'key-spacing': [ERROR, {
-			'beforeColon': false,
-			'afterColon': true,
+			'singleLine': {
+				'beforeColon': false,
+				'afterColon': true,
+				'mode': 'minimum',
+			},
+			'multiLine': {
+				'beforeColon': false,
+				'afterColon': true,
+				'mode': 'strict',
+			},
 		}],
 	},
 
