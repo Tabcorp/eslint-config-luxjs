@@ -25,6 +25,7 @@ module.exports = {
 		'no-console': [ERROR],
 		'no-debugger': [ERROR],
 		'no-dupe-args': [ERROR],
+		'no-dupe-keys': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
