@@ -37,6 +37,7 @@ module.exports = {
 		'eqeqeq': [ERROR],
 		'no-alert': [ERROR],
 		'no-eval': [ERROR],
+		'no-implicit-coercion': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
