@@ -31,6 +31,8 @@ module.exports = {
 		'no-sparse-arrays': [ERROR],
 		'no-unreachable': [ERROR],
 		'use-isnan': [ERROR],
+		// Best Practices
+		'dot-location': [ERROR, 'property'],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
