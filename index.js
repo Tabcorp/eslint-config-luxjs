@@ -28,6 +28,7 @@ module.exports = {
 		'no-dupe-keys': [ERROR],
 		'no-duplicate-case': [ERROR],
 		'no-irregular-whitespace': [ERROR],
+		'no-sparse-arrays': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
