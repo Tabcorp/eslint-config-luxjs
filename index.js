@@ -35,6 +35,7 @@ module.exports = {
 		'dot-location': [ERROR, 'property'],
 		'dot-notation': [ERROR],
 		'eqeqeq': [ERROR],
+		'no-alert': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
