@@ -36,7 +36,7 @@ module.exports = {
 		}],
 		'comma-style': [ERROR, 'last'],
 		'computed-property-spacing': [ERROR, 'never'],
-		'consistent-this': [WARN, 'self', 'context'],
+		'consistent-this': [WARN, 'self'],
 		'eol-last': [WARN],
 		'indent': [ERROR, 'tab', {
 			'SwitchCase': 1,
