@@ -33,6 +33,7 @@ module.exports = {
 		'use-isnan': [ERROR],
 		// Best Practices
 		'dot-location': [ERROR, 'property'],
+		'dot-notation': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
