@@ -30,6 +30,7 @@ module.exports = {
 		'no-irregular-whitespace': [ERROR],
 		'no-sparse-arrays': [ERROR],
 		'no-unreachable': [ERROR],
+		'use-isnan': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
