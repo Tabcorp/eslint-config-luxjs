@@ -33,6 +33,13 @@ module.exports = {
 		'use-isnan': [ERROR],
 		'valid-jsdoc': [WARN, {
 			'requireReturn': false,
+			'requireParamDescription': true,
+			'requireReturnDescription': true,
+			'requireReturnType': true,
+			'preferType': {
+				'String': 'String',
+				'object': 'Object',
+			},
 		}],
 		// Best Practices
 		'dot-location': [ERROR, 'property'],
