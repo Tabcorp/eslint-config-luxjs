@@ -74,6 +74,7 @@ module.exports = {
 				'mode': 'strict',
 			},
 		}],
+		'no-lonely-if': [ERROR],
 	},
 
 };
