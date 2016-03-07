@@ -31,6 +31,9 @@ module.exports = {
 		'no-sparse-arrays': [ERROR],
 		'no-unreachable': [ERROR],
 		'use-isnan': [ERROR],
+		'valid-jsdoc': [WARN, {
+			'requireReturn': false,
+		}],
 		// Best Practices
 		'dot-location': [ERROR, 'property'],
 		'dot-notation': [ERROR],
