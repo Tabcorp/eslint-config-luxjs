@@ -36,10 +36,6 @@ module.exports = {
 			'requireParamDescription': true,
 			'requireReturnDescription': true,
 			'requireReturnType': true,
-			'preferType': {
-				'String': 'String',
-				'object': 'Object',
-			},
 		}],
 		// Best Practices
 		'dot-location': [ERROR, 'property'],
