@@ -40,6 +40,8 @@ module.exports = {
 		'no-implicit-coercion': [ERROR],
 		'no-redeclare': [ERROR],
 		'no-throw-literal': [ERROR],
+		// Variables
+		'no-undef': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
