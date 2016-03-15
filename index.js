@@ -42,6 +42,7 @@ module.exports = {
 		'no-throw-literal': [ERROR],
 		// Variables
 		'no-undef': [ERROR],
+		'no-unused-vars': [ERROR],
 		// Stylistic Issues
 		'array-bracket-spacing': [ERROR, 'never'],
 		'block-spacing': [ERROR, 'always'],
