@@ -81,6 +81,10 @@ module.exports = {
 		'no-trailing-spaces': [ERROR],
 		'no-unreachable': [ERROR],
 		'semi': [ERROR, 'always'],
+		'one-var': [ERROR, {
+			'uninitialized': 'always',
+			'initialized': 'never',
+		}],
 	},
 
 };
