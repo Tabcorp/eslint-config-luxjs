@@ -78,8 +78,8 @@ module.exports = {
 			},
 		}],
 		'no-lonely-if': [ERROR],
-		'no-unreachable': [ERROR],
 		'no-trailing-spaces': [ERROR],
+		'no-unreachable': [ERROR],
 		'semi': [ERROR, 'always'],
 	},
 
