@@ -86,6 +86,7 @@ module.exports = {
 			'initialized': 'never',
 		}],
 		'one-var-declaration-per-line': [ERROR, 'initializations'],
+		'space-before-function-paren': [ERROR, 'always'],
 	},
 
 };
