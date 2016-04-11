@@ -95,6 +95,7 @@ module.exports = {
 		}],
 		'constructor-super': [ERROR],
 		'no-const-assign': [ERROR],
+		'no-dupe-class-members': [ERROR],
 	},
 
 };
