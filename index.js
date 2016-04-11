@@ -94,6 +94,7 @@ module.exports = {
 			'after': true,
 		}],
 		'constructor-super': [ERROR],
+		'no-const-assign': [ERROR],
 	},
 
 };
