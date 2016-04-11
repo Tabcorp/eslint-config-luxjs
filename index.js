@@ -89,6 +89,10 @@ module.exports = {
 		'space-before-function-paren': [ERROR, 'always'],
 		// ES2015
 		'arrow-parens': [ERROR, 'always'],
+		'arrow-spacing': [ERROR, {
+			'before': true,
+			'after': true,
+		}],
 	},
 
 };
