@@ -80,12 +80,12 @@ module.exports = {
 		'no-lonely-if': [ERROR],
 		'no-trailing-spaces': [ERROR],
 		'no-unreachable': [ERROR],
-		'semi': [ERROR, 'always'],
 		'one-var': [ERROR, {
 			'uninitialized': 'always',
 			'initialized': 'never',
 		}],
 		'one-var-declaration-per-line': [ERROR, 'initializations'],
+		'semi': [ERROR, 'always'],
 		'space-before-function-paren': [ERROR, 'always'],
 		// ES2015
 		'arrow-parens': [ERROR, 'always'],
