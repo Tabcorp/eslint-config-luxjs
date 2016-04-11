@@ -93,6 +93,7 @@ module.exports = {
 			'before': true,
 			'after': true,
 		}],
+		'constructor-super': [ERROR],
 	},
 
 };
