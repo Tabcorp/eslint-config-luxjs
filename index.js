@@ -87,6 +87,8 @@ module.exports = {
 		}],
 		'one-var-declaration-per-line': [ERROR, 'initializations'],
 		'space-before-function-paren': [ERROR, 'always'],
+		// ES2015
+		'arrow-parens': [ERROR, 'always'],
 	},
 
 };
