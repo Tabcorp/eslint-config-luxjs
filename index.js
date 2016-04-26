@@ -32,6 +32,7 @@ module.exports = {
 		'no-unreachable': [ERROR],
 		'use-isnan': [ERROR],
 		// Best Practices
+		'complexity': [ERROR, 15],
 		'dot-location': [ERROR, 'property'],
 		'dot-notation': [ERROR],
 		'eqeqeq': [ERROR],
