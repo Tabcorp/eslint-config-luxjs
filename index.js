@@ -78,6 +78,10 @@ module.exports = {
 				'mode': 'strict',
 			},
 		}],
+		'keyword-spacing': [ERROR, {
+			'before': true,
+			'after': true,
+		}],
 		'no-lonely-if': [ERROR],
 		'no-trailing-spaces': [ERROR],
 		'no-unreachable': [ERROR],
