@@ -91,6 +91,7 @@ module.exports = {
 		}],
 		'one-var-declaration-per-line': [ERROR, 'initializations'],
 		'semi': [ERROR, 'always'],
+		'space-before-blocks': [ERROR],
 		'space-before-function-paren': [ERROR, 'always'],
 		// ES2015
 		'arrow-parens': [ERROR, 'always'],
