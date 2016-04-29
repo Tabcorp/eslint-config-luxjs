@@ -86,6 +86,7 @@ module.exports = {
 		'no-spaced-func': [ERROR],
 		'no-trailing-spaces': [ERROR],
 		'no-unreachable': [ERROR],
+		'object-curly-spacing': [ERROR, 'always'],
 		'one-var': [ERROR, {
 			'uninitialized': 'always',
 			'initialized': 'never',
