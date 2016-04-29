@@ -105,6 +105,10 @@ module.exports = {
 		'space-before-function-paren': [ERROR, 'always'],
 		'space-in-parens': [ERROR, 'never'],
 		'space-infix-ops': [ERROR],
+		'space-unary-ops': [ERROR, {
+			'words': true,
+			'nonwords': false,
+		}],
 		// ES2015
 		'arrow-parens': [ERROR, 'always'],
 		'arrow-spacing': [ERROR, {
