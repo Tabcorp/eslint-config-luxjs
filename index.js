@@ -97,6 +97,10 @@ module.exports = {
 			'allowTemplateLiterals': false,
 		}],
 		'semi': [ERROR, 'always'],
+		'semi-spacing': [ERROR, {
+			'before': false,
+			'after': true,
+		}],
 		'space-before-blocks': [ERROR],
 		'space-before-function-paren': [ERROR, 'always'],
 		// ES2015
