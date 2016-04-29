@@ -92,6 +92,10 @@ module.exports = {
 			'initialized': 'never',
 		}],
 		'one-var-declaration-per-line': [ERROR, 'initializations'],
+		'quotes': [ERROR, 'single', {
+			'avoidEscape': false,
+			'allowTemplateLiterals': false,
+		}],
 		'semi': [ERROR, 'always'],
 		'space-before-blocks': [ERROR],
 		'space-before-function-paren': [ERROR, 'always'],
