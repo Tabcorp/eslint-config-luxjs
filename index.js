@@ -83,6 +83,7 @@ module.exports = {
 			'after': true,
 		}],
 		'no-lonely-if': [ERROR],
+		'no-spaced-func': [ERROR],
 		'no-trailing-spaces': [ERROR],
 		'no-unreachable': [ERROR],
 		'one-var': [ERROR, {
