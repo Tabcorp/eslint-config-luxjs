@@ -103,6 +103,7 @@ module.exports = {
 		}],
 		'space-before-blocks': [ERROR],
 		'space-before-function-paren': [ERROR, 'always'],
+		'space-in-parens': [ERROR, 'never'],
 		// ES2015
 		'arrow-parens': [ERROR, 'always'],
 		'arrow-spacing': [ERROR, {
