@@ -22,6 +22,7 @@ module.exports = {
 
 	rules: {
 		// Possible Errors
+		'comma-dangle': [ERROR, 'always-multiline'],
 		'no-console': [ERROR],
 		'no-debugger': [ERROR],
 		'no-dupe-args': [ERROR],
