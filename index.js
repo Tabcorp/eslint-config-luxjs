@@ -120,6 +120,7 @@ module.exports = {
 		'no-const-assign': [ERROR],
 		'no-dupe-class-members': [ERROR],
 		'no-this-before-super': [ERROR],
+		'prefer-rest-params': [ERROR],
 	},
 
 };
