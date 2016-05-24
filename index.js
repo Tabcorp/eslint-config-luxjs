@@ -28,6 +28,7 @@ module.exports = {
 		'no-dupe-args': [ERROR],
 		'no-dupe-keys': [ERROR],
 		'no-duplicate-case': [ERROR],
+		'no-invalid-regexp': [ERROR],
 		'no-irregular-whitespace': [ERROR],
 		'no-sparse-arrays': [ERROR],
 		'no-unreachable': [ERROR],
