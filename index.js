@@ -121,6 +121,7 @@ module.exports = {
 		'no-dupe-class-members': [ERROR],
 		'no-this-before-super': [ERROR],
 		'prefer-rest-params': [ERROR],
+		'prefer-spread': [ERROR],
 	},
 
 };
