@@ -41,6 +41,7 @@ module.exports = {
 		// Best Practices
 		'array-callback-return': [ERROR],
 		'complexity': [ERROR, 15],
+		'curly': [ERROR, 'all'],
 		'dot-location': [ERROR, 'property'],
 		'dot-notation': [ERROR],
 		'eqeqeq': [ERROR],
