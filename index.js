@@ -46,6 +46,7 @@ module.exports = {
 		'dot-notation': [ERROR],
 		'eqeqeq': [ERROR],
 		'no-alert': [ERROR],
+		'no-case-declarations': [ERROR],
 		'no-empty-function': [ERROR],
 		'no-eval': [ERROR],
 		'no-implicit-coercion': [ERROR],
