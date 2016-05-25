@@ -52,6 +52,7 @@ module.exports = {
 		'no-floating-decimal': [ERROR],
 		'no-implicit-coercion': [ERROR],
 		'no-lone-blocks': [ERROR],
+		'no-loop-func': [ERROR],
 		'no-redeclare': [ERROR],
 		'no-throw-literal': [ERROR],
 		// Variables
