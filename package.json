@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-luxjs",
-  "version": "0.0.78",
+  "version": "0.0.79",
   "description": "Luxbet Eslint shareable config",
   "main": "index.js",
   "scripts": {
