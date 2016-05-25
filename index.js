@@ -30,6 +30,7 @@ module.exports = {
 		'no-dupe-keys': [ERROR],
 		'no-duplicate-case': [ERROR],
 		'no-empty': [ERROR],
+		'no-extra-boolean-cast': [ERROR],
 		'no-extra-semi': [ERROR],
 		'no-invalid-regexp': [ERROR],
 		'no-irregular-whitespace': [ERROR],
