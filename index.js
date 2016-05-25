@@ -49,6 +49,7 @@ module.exports = {
 		'no-case-declarations': [ERROR],
 		'no-empty-function': [ERROR],
 		'no-eval': [ERROR],
+		'no-floating-decimal': [ERROR],
 		'no-implicit-coercion': [ERROR],
 		'no-redeclare': [ERROR],
 		'no-throw-literal': [ERROR],
