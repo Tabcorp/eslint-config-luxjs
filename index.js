@@ -51,6 +51,7 @@ module.exports = {
 		'no-eval': [ERROR],
 		'no-floating-decimal': [ERROR],
 		'no-implicit-coercion': [ERROR],
+		'no-lone-blocks': [ERROR],
 		'no-redeclare': [ERROR],
 		'no-throw-literal': [ERROR],
 		// Variables
