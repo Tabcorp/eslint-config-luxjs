@@ -35,6 +35,7 @@ module.exports = {
 		'no-sparse-arrays': [ERROR],
 		'no-unreachable': [ERROR],
 		'use-isnan': [ERROR],
+		'valid-typeof': [ERROR],
 		// Best Practices
 		'complexity': [ERROR, 15],
 		'dot-location': [ERROR, 'property'],
