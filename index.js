@@ -39,6 +39,7 @@ module.exports = {
 		'use-isnan': [ERROR],
 		'valid-typeof': [ERROR],
 		// Best Practices
+		'array-callback-return': [ERROR],
 		'complexity': [ERROR, 15],
 		'dot-location': [ERROR, 'property'],
 		'dot-notation': [ERROR],
