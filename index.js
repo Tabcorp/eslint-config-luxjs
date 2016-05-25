@@ -53,6 +53,12 @@ module.exports = {
 		'no-implicit-coercion': [ERROR],
 		'no-lone-blocks': [ERROR],
 		'no-loop-func': [ERROR],
+		'no-multi-spaces': [ERROR, {
+			'exceptions': {
+				'Property': true,
+				'ObjectExpression': true,
+			},
+		}],
 		'no-redeclare': [ERROR],
 		'no-throw-literal': [ERROR],
 		// Variables
