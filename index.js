@@ -85,7 +85,7 @@ module.exports = {
 		'consistent-this': [WARN, 'self'],
 		'eol-last': [WARN],
 		'func-names': [OFF],
-		'func-style': [OFF],
+		'func-style': [ERROR, 'declaration'],
 		'indent': [ERROR, 'tab', {
 			'SwitchCase': 1,
 		}],
