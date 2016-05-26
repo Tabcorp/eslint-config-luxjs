@@ -62,6 +62,7 @@ module.exports = {
 		'no-unused-expressions': [ERROR],
 		'no-redeclare': [ERROR],
 		'no-throw-literal': [ERROR],
+		'no-with': [ERROR],
 		// Variables
 		'no-undef': [ERROR],
 		'no-unused-vars': [ERROR],
