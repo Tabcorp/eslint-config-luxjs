@@ -119,6 +119,7 @@ module.exports = {
 		'no-lonely-if': [ERROR],
 		'no-multiple-empty-lines': [ERROR],
 		'no-negated-condition': [ERROR],
+		'no-nested-ternary': [ERROR],
 		'no-spaced-func': [ERROR],
 		'no-trailing-spaces': [ERROR],
 		'no-unneeded-ternary': [ERROR],
