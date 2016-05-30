@@ -108,6 +108,9 @@ module.exports = {
 		'max-depth': [ERROR, {
 			'max': 4,
 		}],
+		'max-statements-per-line': [ERROR, {
+			'max': 1,
+		}],
 		'no-lonely-if': [ERROR],
 		'no-spaced-func': [ERROR],
 		'no-trailing-spaces': [ERROR],
