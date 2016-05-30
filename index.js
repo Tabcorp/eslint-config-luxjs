@@ -25,6 +25,7 @@ module.exports = {
 		'comma-dangle': [ERROR, 'always-multiline'],
 		'no-cond-assign': [ERROR],
 		'no-console': [ERROR],
+		'no-constant-condition': [ERROR],
 		'no-debugger': [ERROR],
 		'no-dupe-args': [ERROR],
 		'no-dupe-keys': [ERROR],
