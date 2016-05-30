@@ -9,10 +9,6 @@ module.exports = {
 		'es6': true,
 	},
 
-	globals: {
-
-	},
-
 	rules: {
 		// Possible Errors
 		'comma-dangle': ['error', 'always-multiline'],
