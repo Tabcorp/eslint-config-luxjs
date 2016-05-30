@@ -121,6 +121,7 @@ module.exports = {
 		'no-negated-condition': [ERROR],
 		'no-spaced-func': [ERROR],
 		'no-trailing-spaces': [ERROR],
+		'no-unneeded-ternary': [ERROR],
 		'no-unreachable': [ERROR],
 		'object-curly-spacing': [ERROR, 'always'],
 		'one-var': [ERROR, {
