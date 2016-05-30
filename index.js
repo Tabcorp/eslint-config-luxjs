@@ -115,6 +115,7 @@ module.exports = {
 			'newIsCap': true,
 			'capIsNew': false,
 		}],
+		'new-parens': [ERROR],
 		'no-lonely-if': [ERROR],
 		'no-spaced-func': [ERROR],
 		'no-trailing-spaces': [ERROR],
