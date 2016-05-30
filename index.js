@@ -111,6 +111,10 @@ module.exports = {
 		'max-statements-per-line': [ERROR, {
 			'max': 1,
 		}],
+		'new-cap': [ERROR, {
+			'newIsCap': true,
+			'capIsNew': false,
+		}],
 		'no-lonely-if': [ERROR],
 		'no-spaced-func': [ERROR],
 		'no-trailing-spaces': [ERROR],
