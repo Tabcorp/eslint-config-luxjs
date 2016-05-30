@@ -118,6 +118,7 @@ module.exports = {
 			'initialized': 'never',
 		}],
 		'one-var-declaration-per-line': [ERROR, 'initializations'],
+		'quote-props': [ERROR, 'consistent-as-needed'],
 		'quotes': [ERROR, 'single', {
 			'avoidEscape': false,
 			'allowTemplateLiterals': false,
