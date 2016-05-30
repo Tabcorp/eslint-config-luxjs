@@ -105,6 +105,9 @@ module.exports = {
 			'before': true,
 			'after': true,
 		}],
+		'max-depth': [ERROR, {
+			'max': 4,
+		}],
 		'no-lonely-if': [ERROR],
 		'no-spaced-func': [ERROR],
 		'no-trailing-spaces': [ERROR],
