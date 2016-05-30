@@ -33,6 +33,7 @@ module.exports = {
 		'no-empty': [ERROR],
 		'no-extra-boolean-cast': [ERROR],
 		'no-extra-semi': [ERROR],
+		'no-inner-declarations': [ERROR],
 		'no-invalid-regexp': [ERROR],
 		'no-irregular-whitespace': [ERROR],
 		'no-sparse-arrays': [ERROR],
