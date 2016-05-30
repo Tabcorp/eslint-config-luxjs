@@ -118,6 +118,7 @@ module.exports = {
 		'new-parens': [ERROR],
 		'no-lonely-if': [ERROR],
 		'no-multiple-empty-lines': [ERROR],
+		'no-negated-condition': [ERROR],
 		'no-spaced-func': [ERROR],
 		'no-trailing-spaces': [ERROR],
 		'no-unreachable': [ERROR],
