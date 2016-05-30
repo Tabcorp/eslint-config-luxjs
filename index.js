@@ -61,9 +61,9 @@ module.exports = {
 				'ObjectExpression': true,
 			},
 		}],
-		'no-unused-expressions': [ERROR],
 		'no-redeclare': [ERROR],
 		'no-throw-literal': [ERROR],
+		'no-unused-expressions': [ERROR],
 		'no-with': [ERROR],
 		'radix': [ERROR, 'always'],
 		// Variables
