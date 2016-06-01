@@ -1,7 +1,15 @@
 module.exports = {
 
-	rules: [
-		'no-console': ['off'],
+	extends: [
+		'luxjs',
 	],
+
+	env: {
+		node: true,
+	},
+
+	rules: {
+		'no-console': 'off',
+	},
 
 };
