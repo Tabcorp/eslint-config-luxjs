@@ -155,7 +155,9 @@ module.exports = {
 		'consistent-this': ['warn', 'self'],
 		'eol-last': ['warn'],
 		'func-names': ['off'],
-		'func-style': ['error', 'declaration'],
+		'func-style': ['error', 'declaration', {
+			'allowArrowFunctions': true,
+		}],
 		'id-blacklist': ['off'],
 		'id-length': ['off'],
 		'id-match': ['off'],
