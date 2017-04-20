@@ -1,27 +1,43 @@
 {
-  "name": "eslint-config-luxjs",
-  "version": "0.3.1",
-  "description": "Luxbet Eslint shareable config",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/luxbet/eslint-config-luxjs.git"
-  },
-  "keywords": [
-    "luxbet",
-    "lux",
-    "eslint",
-    "eslintconfig",
-    "javascript",
-    "style"
-  ],
-  "author": "Jamie Hoeks <hoeksj@luxbet.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/luxbet/eslint-config-luxjs/issues"
-  },
-  "homepage": "https://github.com/luxbet/eslint-config-luxjs"
+	"name": "eslint-config-luxjs",
+	"version": "0.4.0-rc",
+	"description": "Luxbet Eslint shareable config",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/luxbet/eslint-config-luxjs.git"
+	},
+	"keywords": [
+		"luxbet",
+		"lux",
+		"eslint",
+		"eslintconfig",
+		"javascript",
+		"style"
+	],
+	"author": "Jamie Hoeks <hoeksj@luxbet.com>",
+	"contributors": [
+		{
+			"name": "Jamie Hoeks",
+			"email": "hoeksj@luxbet.com"
+		},
+		{
+			"name": "Ben Liu",
+			"email": "ben196888@gmail.com"
+		}
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/luxbet/eslint-config-luxjs/issues"
+	},
+	"homepage": "https://github.com/luxbet/eslint-config-luxjs",
+	"devDependencies": {
+		"eslint": "^3.19.0",
+		"eslint-plugin-jsx-a11y": "^4.0.0",
+		"eslint-plugin-react": "^6.10.3"
+	}
 }
