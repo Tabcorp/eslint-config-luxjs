@@ -16,7 +16,8 @@ module.exports = {
 
 	rules: {
 		'jsx-quotes': ['error', 'prefer-double'],
-		'class-methods-use-this': ['error', {
+		// TODO: prefer enable
+		'class-methods-use-this': ['off', {
 			exceptMethods: [
 				'render',
 				'getInitialState',
@@ -33,7 +34,8 @@ module.exports = {
 		}],
 		'react/display-name': ['off', { ignoreTranspilerName: false }],
 		'react/forbid-prop-types': ['off'],
-		'react/jsx-boolean-value': ['error', 'never'],
+		// TODO: prefer enable
+		'react/jsx-boolean-value': ['off', 'never'],
 		'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
 		'react/jsx-curly-spacing': ['off', 'never', { allowMultiline: true }],
 		'react/jsx-handler-names': ['off', {
@@ -87,7 +89,8 @@ module.exports = {
 		'react/require-extension': ['off', { extensions: ['.jsx', '.js'] }],
 		'react/require-render-return': 'error',
 		'react/self-closing-comp': 'error',
-		'react/sort-comp': ['error', {
+		// TODO: prefer enable
+		'react/sort-comp': ['off', {
 			order: [
 				'static-methods',
 				'lifecycle',
@@ -127,8 +130,10 @@ module.exports = {
 			beforeSelfClosing: 'always',
 			afterOpening: 'never',
 		}],
-		'react/no-array-index-key': 'error',
-		'react/require-default-props': 'error',
+		// TODO: prefer enable
+		'react/no-array-index-key': 'off',
+		// TODO: prefer enable
+		'react/require-default-props': 'off',
 		'react/forbid-elements': ['off', {
 			forbid: [
 			],

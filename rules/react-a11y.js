@@ -12,7 +12,8 @@ module.exports = {
 		'jsx-a11y/aria-props': 'error',
 		'jsx-a11y/aria-proptypes': 'error',
 		'jsx-a11y/aria-unsupported-elements': 'error',
-		'jsx-a11y/href-no-hash': ['error', { components: ['a'] }],
+		// TODO: prefer enable
+		'jsx-a11y/href-no-hash': ['off', { components: ['a'] }],
 		'jsx-a11y/alt-text': ['error', {
 			'elements': ['img', 'object', 'area', 'input[type="image"]'],
 			'img': [],
