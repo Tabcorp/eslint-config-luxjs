@@ -35,7 +35,7 @@ module.exports = {
 		'react/forbid-prop-types': ['off'],
 		'react/jsx-boolean-value': ['error', 'never'],
 		'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
-		'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
+		'react/jsx-curly-spacing': ['off', 'never', { allowMultiline: true }],
 		'react/jsx-handler-names': ['off', {
 			eventHandlerPrefix: 'handle',
 			eventHandlerPropPrefix: 'on',
