@@ -40,7 +40,7 @@ module.exports = {
 			eventHandlerPrefix: 'handle',
 			eventHandlerPropPrefix: 'on',
 		}],
-		'react/jsx-indent-props': ['error', 4],
+		'react/jsx-indent-props': ['error', 'tab'],
 		'react/jsx-key': 'off',
 		'react/jsx-max-props-per-line': ['off', { maximum: 1, when: 'multiline' }],
 		'react/jsx-no-bind': ['error', {
@@ -87,7 +87,6 @@ module.exports = {
 		'react/require-extension': ['off', { extensions: ['.jsx', '.js'] }],
 		'react/require-render-return': 'error',
 		'react/self-closing-comp': 'error',
-		'react/jsx-space-before-closing': ['error', 'always'],
 		'react/sort-comp': ['error', {
 			order: [
 				'static-methods',
@@ -106,9 +105,9 @@ module.exports = {
 		}],
 		'react/jsx-first-prop-new-line': ['error', 'multiline'],
 		'react/jsx-equals-spacing': ['error', 'never'],
-		'react/jsx-indent': ['error', 4],
+		'react/jsx-indent': ['error', 'tab'],
 		'react/jsx-no-target-blank': 'error',
-		'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
+		'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
 		'react/jsx-no-comment-textnodes': 'error',
 		'react/no-render-return-value': 'error',
 		'react/require-optimization': ['off', { allowDecorators: [] }],
@@ -141,7 +140,7 @@ module.exports = {
 	settings: {
 		'import/resolver': {
 			node: {
-				extensions: ['.jsx', '.json'],
+				extensions: ['.js', '.jsx', '.json'],
 			},
 		},
 		'react': {
