@@ -5,6 +5,7 @@ module.exports = {
 		'./rules/es6',
 		'./rules/node',
 		'./rules/react',
+		'./rules/react-a11y',
 		'./rules/style',
 		'./rules/variables',
 	].map(require.resolve),
